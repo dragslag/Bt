@@ -46,7 +46,10 @@ a.largeButton { color: white; text-transform: uppercase; font-weight: 700; font-
 .contactBgColor { background: #e3387c; }
 .contactBgColor:hover { background-color: #9f164d; }
 
-a.largeButton.homeBgColor { border-color: #16709f; }
+a.largeButton.homeBgColor {
+	border-color: #16709f;
+	/* [disabled]border-width: 0%; */
+}
 
 a.largeButton.portfolioBgColor { border-color: #169f60; }
 
@@ -94,16 +97,16 @@ a.menu-toggle-btn i { line-height: 60px; }
 .responsive-menu { display: none; background-color: #495054; }
 .responsive-menu ul li a { color: white; text-transform: uppercase; display: block; padding: 20px; border-bottom: 1px solid #5a6267; }
 
-.main-slider { width: 100%; height: 570px; }
+.main-slider { width: 100%; height: 100%; }
 
-.flexslider .slides { height: 570px; }
+.flexslider .slides { height: 100%; }
 
 .slider-caption {
 	position: absolute;
 	vertical-align: middle;
 	width: 100%;
 	text-align: center;
-	height: 100;
+	height: 100%;
 	z-index: 8;
 	color: white;
 	top: 100px;
@@ -111,7 +114,13 @@ a.menu-toggle-btn i { line-height: 60px; }
 .slider-caption h2 { font-size: 48px; text-transform: uppercase; font-weight: 800; margin-bottom: 30px; }
 .slider-caption p { font-size: 16px; text-transform: uppercase; letter-spacing: 2px; width: 50%; margin: 0 auto 30px auto; line-height: 1.8em; }
 
-.flexslider { background-color: black; height: 570px; overflow: hidden; margin: 0; }
+.flexslider {
+	background-color: black;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	width: 100%;
+}
 
 .flexslider img { position: relative; opacity: 0.5; width: 100%; z-index: 7; }
 
