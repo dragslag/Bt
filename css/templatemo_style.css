@@ -106,12 +106,11 @@ a.menu-toggle-btn i { line-height: 60px; }
 	vertical-align: middle;
 	width: 100%;
 	text-align: center;
-	height: 100%;
 	z-index: 8;
 	color: white;
 	top: 100px;
 }
-.slider-caption h2 { font-size: 48px; text-transform: uppercase; font-weight: 800; margin-bottom: 30px; }
+.slider-caption h2 { font-size: 40px; text-transform: uppercase; font-weight: 800; margin-bottom: 30px; }
 .slider-caption p { font-size: 16px; text-transform: uppercase; letter-spacing: 2px; width: 50%; margin: 0 auto 30px auto; line-height: 1.8em; }
 
 .flexslider {
@@ -133,14 +132,14 @@ a.menu-toggle-btn i { line-height: 60px; }
 .welcome-text h2 { color: #38a9e3; font-weight: 300; text-transform: uppercase; font-size: 32px; }
 .welcome-text p { color: #aaaaaa; }
 
-.member-item { overflow: hidden; height: auto; }
+.member-item { height: auto; }
 .member-item:hover .overlay { opacity: 1; visibility: visible; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
 
-.member-thumb { width: 100%; overflow: hidden; height: auto; position: relative; }
+.member-thumb { width: 100%; height: auto; position: relative; }
 .member-thumb img { width: 100%; }
 .member-thumb .overlay { position: absolute; top: 0; right: 0; opacity: 0; visibility: hidden; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6); }
 
-.member-content { margin-top: 10px; overflow: hidden; text-align: center; }
+.member-content { margin-top: 10px; text-align: center; }
 .member-content h4 { text-transform: uppercase; font-size: 18px; color: #e9b144; }
 .member-content p { color: #aaaaaa; font-size: 12; }
 
@@ -151,12 +150,12 @@ a.menu-toggle-btn i { line-height: 60px; }
 .our-story { margin-top: 80px; }
 .our-story h3 { color: #e9b144; font-weight: 300; text-transform: uppercase; font-size: 24px; margin: 0 0 20px 0; }
 
-.story-image { margin-top: 30px; overflow: hidden; }
+.story-image { margin-top: 30px; }
 .story-image img { width: 100%; height: auto; }
 
 .service-item { background-color: #974dea; color: white; }
-.service-item .service-icon { width: 25%; float: left; overflow: hidden; display: inline-block; text-align: center; margin-top: 30px; height: 100%; }
-.service-item .service-content { width: 75%; overflow: hidden; text-align: center; padding: 20px 20px 20px 0; }
+.service-item .service-icon { width: 25%; float: left; display: inline-block; text-align: center; margin-top: 30px; height: 100%; }
+.service-item .service-content { width: 75%; text-align: center; padding: 20px 20px 20px 0; }
 .service-item .service-content h3 { margin: 0; font-size: 20px; }
 
 .our-skills { margin-top: 80px; }
@@ -164,12 +163,12 @@ a.menu-toggle-btn i { line-height: 60px; }
 
 .progress-bar { background-color: #974dea; text-transform: uppercase; font-size: 12px; }
 
-.portfolio-thumb { overflow: hidden; position: relative; }
+.portfolio-thumb { position: relative; }
 .portfolio-thumb img { width: 100%; height: auto; }
 .portfolio-thumb .overlay-p { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(56, 227, 149, 0.9); visibility: hidden; opacity: 0; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 .portfolio-thumb .overlay-p a { position: absolute; top: 50%; margin-top: -12px; left: 50%; margin-left: -15px; color: white; }
 
-.portfolio-item { margin-bottom: 40px; overflow: hidden; }
+.portfolio-item { margin-bottom: 40px; }
 .portfolio-item:hover .overlay-p { visibility: visible; opacity: 1; }
 
 .portfolio-title { width: 100%; text-align: center; }
